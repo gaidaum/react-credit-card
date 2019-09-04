@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');body{
+     margin: 20px;
+     padding: 0;
+     font-family: sans-serif;
+     background-color: #7bed9f;
+}
+
+.credit-card {
+     margin: auto;
+     position: absolute;
+     width: 600px;
+     height: 378px;
+     border-radius: 24px;
+     background: linear-gradient( #9198e5,#e66465);
+     color: #fff;
+     padding-left: 40px;
+     top: 0; left: 0; bottom: 0; right: 0;
+     border: 2px solid rgb(11, 45, 238);
+
+   }
+
+.name, .card-number, .first-four-digits, .expiration{
+     font-family: "Courier", monospace;
+     position: absolute;
+     text-transform: uppercase;
+}
+
+.name {
+     bottom: 40px;
+     font-size: 36px;
+}
+
+.card-number{
+     bottom:160px;
+     font-size: 46px;
+}
+.first-four-digits{
+     bottom:140px;
+     font-size:20px;
+     font-weight: 200;
+     left:45px;
+     font-family: sans-serif
+}
+.expiration{
+     font-size: 35px;
+     bottom:100px;
+     left:240px;
+}
+
+.valid-thru{
+     width:30px;
+     display:inline-block;
+     font-size: 14px;
+     text-transform: uppercase;
+}
+
+.bank-name{
+     font-family:'modak';
+     position: absolute;
+     font-size: 50px;
+     left:30px;
+     top:20px;
+
+}
+
+.logo{
+     height: 15%;
+     width: 15%;
+     position: absolute;
+     right: 20px;
+     top: 20px;
+
+}
+
+.visa{
+     height: 23%;
+     width: 18%;
+     position: absolute;
+     bottom: 10px;
+     right: 25px;
+}
